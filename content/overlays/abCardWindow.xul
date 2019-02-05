@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://dav4tbsync/locale/dav.dtd">
+
+<overlay 
+    id="abCardWindow" 
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    
+    <hbox id="DavMiddleNameContainer" align="center" class="davContainer" insertafter="NameField1Container" >
+        <spacer flex="1" />
+        <label control="X-DAV-MiddleName" value="&abCard.MiddleName;" />
+        <hbox class="CardEditWidth" >
+            <textbox id="X-DAV-MiddleName" flex="1" class="davProperty CardEditWidth" />
+        </hbox>
+    </hbox>
+
+    <hbox id="DavMainPhoneContainer" align="center" class="davContainer" insertbefore="WorkPhoneContainer" >
+        <spacer flex="1" />
+        <label control="X-DAV-MainPhone" value="&abCard.Phone;" />
+        <textbox id="X-DAV-MainPhone" class="davProperty PhoneEditWidth" />
+    </hbox>
+
+</overlay>
+
+
+
